@@ -6,7 +6,7 @@ Preprocess.jpynb--ML-20M,Netflix-prize,MSDデータの前処理
 
 EASE--線形回帰モデルEASEを用いて予測を作成
 >関連論文:https://arxiv.org/pdf/1905.03375.pdf　　
-コード参考・引用元(https://github.com/Darel13712/ease_rec/blob/master/model.py) 
+コード参考・引用元:https://github.com/Darel13712/ease_rec/blob/master/model.py 
 
 Evaluation--予測結果をNDCG,Recallで評価　　
 >関連論文:https://arxiv.org/pdf/1802.05814.pdf　　
