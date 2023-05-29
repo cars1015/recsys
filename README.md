@@ -22,5 +22,6 @@ Doc2_evaluation.py--Doc2vecを使用したモデルの評価
 
 使用環境
 ---
-jpynbファイルはGoogle colab
+jpynbファイルはGoogle colab    
 pyファイルはlinux
+Python 3.9.13
