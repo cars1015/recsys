@@ -9,7 +9,7 @@ EASE--線形回帰モデルEASEを用いて予測を作成
 コード参考・引用元:https://github.com/Darel13712/ease_rec/blob/master/model.py 
 
 Evaluation--予測結果をNDCG,Recallで評価　　
->関連論文:https://arxiv.org/pdf/1802.05814.pdf　　
+>関連論文:https://arxiv.org/pdf/1802.05814.pdf  
 コード参考・引用元；https://github.com/dawenl/vae_cf/blob/master/VAE_ML20M_WWW2018.ipynb　　
 
 item2vec.jpyneb--word2vecを用いた推薦（item2vec）をimplicit feedbackに応用しモデルを作成　　
