@@ -1,5 +1,5 @@
 # recsys_MyReserch　　
-推薦システムの研究で使う自分で作成、または引用、手直ししたコードを置く場所。　　
+推薦システムの研究で使う自分で作成、または引用、手直ししたコードを置く場所。  　　
 implicit feedback用のコード置き場
 ---
 Preprocess.jpynb--ML-20M,Netflix-prize,MSDデータの前処理
