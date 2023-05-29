@@ -18,6 +18,7 @@ item2vec.jpyneb--word2vecを用いた推薦（item2vec）をimplicit feedbackに
 i2v_evaluation.py--作成したモデルよりアイテムの埋め込みを取得しアイテム間類似度を用い推薦を行う。　　
 
 Doc2_model.py--userを文、アイテムを単語とみなしDoc2Vecを用いた推薦モデルの作成    
+
 Doc2_evaluation.py--Doc2vecを使用したモデルの評価
 
 使用環境
