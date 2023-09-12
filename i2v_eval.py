@@ -80,7 +80,8 @@ class CORR:
         #B[diagIndices] = 0
     def fit_white(self, df , X, float = 0.5):
         users, items = self._get_users_and_items(df)
-        X=self.whitening(X)
+        X=self.whitening(X.T)
+        X=X.T
         B=cosine_similarity(X.T) 
         diagIndices = np.diag_indices(B.shape[0])
         B[diagIndices]=0
