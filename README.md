@@ -4,18 +4,15 @@ implicit feedback用のコード置き場
 ---
 Preprocess.jpynb--ML-20M,Netflix-prize,MSDデータの前処理
 
-EASE--線形回帰モデルEASEを用いて予測を作成
+EASE.py--線形回帰モデルEASEおよびAutoEncoder用いて予測を作成、評価
 >関連論文:https://arxiv.org/pdf/1905.03375.pdf  
-コード参考・引用元:https://github.com/Darel13712/ease_rec/blob/master/model.py 
+コード参考・引用元:https://github.com/Darel13712/ease_rec/blob/master/model.py、https://github.com/dawenl/vae_cf/blob/master/VAE_ML20M_WWW2018.ipynb 
 
-Evaluation--予測結果をNDCG,Recallで評価　　
->関連論文:https://arxiv.org/pdf/1802.05814.pdf  
-コード参考・引用元；https://github.com/dawenl/vae_cf/blob/master/VAE_ML20M_WWW2018.ipynb　　
 
-item2vec.jpyneb--word2vecを用いた推薦（item2vec）をimplicit feedbackに応用しモデルを作成　　
+item2vec_model.py--word2vecを用いた推薦（item2vec）をimplicit feedbackに応用しモデルを作成　　
 >関連論文:https://arxiv.org/ftp/arxiv/papers/1603/1603.04259.pdf  
 
-i2v_evaluation.py--作成したモデルよりアイテムの埋め込みを取得しアイテム間類似度を用い推薦を行う。　　
+i2v_eval.py--作成したモデルよりアイテムの埋め込みを取得しアイテム間類似度を用い推薦を行う。　
 
 Doc2_model.py--userを文、アイテムを単語とみなしDoc2Vecを用いた推薦モデルの作成    
 
