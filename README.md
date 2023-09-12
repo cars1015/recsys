@@ -1,4 +1,4 @@
-# recsys_MyReserch　　
+# recsys
 推薦システムの研究で使う自分で作成、または引用、手直ししたコードを置く場所。  
 implicit feedback用のコード置き場
 ---
